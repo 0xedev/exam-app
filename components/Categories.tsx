@@ -1,7 +1,7 @@
 import { Text, Pressable } from "react-native";
 import { FontAwesome5 } from "@expo/vector-icons";
 import type { Category } from "../lib/util";
-import tw from "../tailwind"; // assuming you're using tailwind-rn for React Native
+import tw from "../tailwind"; 
 
 interface CategoryProps {
 	item: Category;
